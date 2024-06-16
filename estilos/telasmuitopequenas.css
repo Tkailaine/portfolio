@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+header{
+    background-image: url(../imagens/header-background-pp.jpg);
+   
+}
+
+header ul{
+    font-size: 0.6em;
+}

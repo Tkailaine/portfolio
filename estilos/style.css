@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+:root{
+    --cor1: #151F30;
+    --cor2: #103778;
+    --cor3: #0593A2;
+    --cor4: #ff7a48;
+    --cor5: #e3371e;
+
+    --font-destaque: Modak, sans-serif;
+    --font-principal: Roboto, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #EAEAEA;
+  
+}
+
+h1{
+    font-family: var(--font-destaque);
+    margin: 0px 20px;
+    font-size: 1.5em;
+}
+
+.bandeira{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 200px 0px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to left,#7700ff,#f3093c, #0a6fe2);
+    background-size: 500%, 100%;
+    animation: degrade-bandeira 5s infinite alternate; 
+
+    
+}
+
+@keyframes degrade-bandeira {
+    0%{
+        background-position-x: 0%;
+
+    }
+
+    100%{
+        background-position-x: 100%;
+    }
+    
+}
+
+header{
+    position: relative;
+    background-image: url(../imagens/header-background-p.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    color: white;
+    
+    
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-image: linear-gradient(40deg,  #117c88 50%, #00e5ff);
+    width: 400px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    gap: 10px;
+    text-align: center;
+}
+
+header li{
+    font-family: var(--font-principal);
+    font-weight: 500;
+}
+
+header h1{
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    color: var(--cor1);
+    font-weight: 600;
+}
+
+#logo{
+    width: 150px;
+}
+
+.btn{
+    position: absolute;
+    background-image: linear-gradient(45deg,  #0593A2 40%, #00e5ff);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    right: 20px;
+    top: 200px;
+}
+
+main{
+    position: relative;
+}
+
+main h1{
+    font-size: 2.5em;
+    font-weight: 100;
+    color: var(--cor4);
+}
+
+
+main .apresentacao p{
+    font-family: var(--font-principal);
+    width: 250px;
+    text-align: justify;
+    margin-left: 30px;
+    line-height: 2em;
+}
+
+main .habilidades{
+    position: absolute;
+    top: 100px;
+    right: 0px;
+
+}
+
+main .habilidades img{
+    width: 120px;
+    margin-left: 10px;
+}
+
+
+main .habilidades h1, h2{
+    font-family: var(--font-destaque);
+    font-weight: 100;
+    font-size: 1.4em;
+
+}
+
+h2{
+    color: var(--cor1);
+    margin: 0px 20px;
+}
