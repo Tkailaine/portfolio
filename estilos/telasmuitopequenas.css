@@ -8,3 +8,39 @@ header{
 header ul{
     font-size: 0.6em;
 }
+
+main{
+   width: 85%;
+   margin: auto;
+}
+
+main h1{
+    font-size: 2em;
+    font-weight: 100;
+    color: var(--cor4);
+    
+}
+
+main .apresentacao p{
+   font-size: 0.8em;
+    line-height: 2em;
+}
+
+
+main .habilidades{
+
+    margin-left: -160px;
+    
+    
+}
+    
+ main .habilidades img{
+        width: 100px;
+        margin-left: -8px;
+}
+    
+
+main .habilidades h1, h2{
+    font-size: 1.2em;
+
+}

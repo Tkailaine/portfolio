@@ -37,7 +37,6 @@ html,body{
 
 h1{
     font-family: var(--font-destaque);
-    margin: 0px 20px;
     font-size: 1.5em;
 }
 
@@ -118,6 +117,7 @@ header a{
 header a:hover{
     color: var(--cor1);
     font-weight: 600;
+    transition-duration: 0.5s;
 }
 
 #logo{
@@ -137,33 +137,36 @@ header a:hover{
 
 main{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main h1{
     font-size: 2.5em;
     font-weight: 100;
     color: var(--cor4);
+    
 }
 
 
 main .apresentacao p{
     font-family: var(--font-principal);
-    width: 250px;
+    width: 300px;
     text-align: justify;
-    margin-left: 30px;
     line-height: 2em;
 }
 
 main .habilidades{
-    position: absolute;
-    top: 100px;
-    right: 0px;
+margin-top: 30px;
+margin-left: -140px;
+
 
 }
 
 main .habilidades img{
     width: 120px;
-    margin-left: 10px;
+    margin-left: -10px;
 }
 
 
@@ -176,5 +179,5 @@ main .habilidades h1, h2{
 
 h2{
     color: var(--cor1);
-    margin: 0px 20px;
+   
 }

@@ -3,3 +3,43 @@ header{
    background-image: url(../imagens/header-background.jpg);
    
 }
+
+.btn{
+   font-size: 1.2em;
+   width: 120px;
+   height: 50px;
+   right: 20px;
+
+}
+main .apresentacao p{
+   font-family: var(--font-principal);
+   width: 40%;
+   text-align: justify;
+   margin-left: 100px;
+
+
+}
+
+main .apresentacao h1{
+   margin-left: 100px;
+}
+
+main .habilidades{
+   position: absolute;
+   top: 50px;
+   right: 25%;
+   
+}
+
+main .habilidades h1, h2{
+   font-family: var(--font-destaque);
+   font-weight: 100;
+   font-size: 1.3em;
+   
+
+}
+
+h2{
+   color: var(--cor1);
+  
+}
