@@ -205,6 +205,11 @@ main .sessao2{
     transition: 5s;
 }
 
+.portfolio.scroll {
+    background-position: 100% 100%;
+    transition: background-position 5s;
+}
+
 .portfolio:hover{
     background-position: 100% 100%;
 
