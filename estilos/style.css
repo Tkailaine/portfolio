@@ -191,37 +191,58 @@ main .sessao2{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 800px;
+    height:auto;
     
 }
 
-.portfolio{
+.portfolio {
     width: 350px;
     height: 600px;
     background-size: cover;
     background-position: 100% 0%;
     border-radius: 20px;
     cursor: pointer;
-    transition: 5s;
-}
-
-.portfolio.scroll {
-    background-position: 100% 100%;
-    transition: background-position 5s;
-}
-
-.portfolio:hover{
-    background-position: 100% 100%;
-
+    animation: scrollBackground 20s infinite; /* Ajuste a duração total para incluir as pausas e o retorno */
     
 }
 
-.site1{
+@keyframes scrollBackground {
+    0% {
+        background-position: 100% 0%;
+    }
+    14.28% {
+        background-position: 100% 0%; /* Pausa no início */
+    }
+    42.86% {
+        background-position: 100% 100%; /* Rola até o final */
+    }
+    57.14% {
+        background-position: 100% 100%; /* Pausa no final */
+    }
+    85.72% {
+        background-position: 100% 0%; /* Rola de volta para o início */
+    }
+    100% {
+        background-position: 100% 0%; /* Pausa no início novamente */
+    }
+}
+
+.site1 {
     background-image: url(../imagens/site1.jpg);
 }
-.site2{
+
+.site2 {
     background-image: url(../imagens/site2.jpg);
 }
-.site3{
+
+.site3 {
     background-image: url(../imagens/site3.jpg);
+}
+
+/* Adicione regras de media query para ajustar o tamanho dos portfólios em dispositivos menores, se necessário */
+@media screen and (max-width: 768px) {
+    .portfolio {
+        width: 250px;
+        height: 400px;
+    }
 }

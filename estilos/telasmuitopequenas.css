@@ -44,3 +44,14 @@ main .habilidades h1, h2{
     font-size: 1.2em;
 
 }
+
+.sessao2{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.portfolio{
+    height: 400px;
+   
+}

@@ -72,23 +72,6 @@
 
     </main>
     
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var portfolios = document.querySelectorAll('.portfolio');
-
-            portfolios.forEach(function (portfolio) {
-                portfolio.addEventListener('touchstart', function () {
-                    this.classList.add('scroll');
-                });
-
-                portfolio.addEventListener('touchend', function () {
-                    // Remove a classe após 5 segundos para permitir o toque repetido
-                    setTimeout(() => {
-                        this.classList.remove('scroll');
-                    }, 5000);
-                });
-            });
-        });
-    </script>
+   
 </body>
 </html>
