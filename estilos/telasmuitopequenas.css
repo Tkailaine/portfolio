@@ -9,6 +9,10 @@ header ul{
     font-size: 0.6em;
 }
 
+.bandeira h1{
+    font-size: 1em;
+}
+
 main .sessao1{
    width: 85%;
    margin: auto;
@@ -45,7 +49,7 @@ main .habilidades h1, h2{
 
 }
 
-.sessao2{
+.port{
     flex-direction: column;
     gap: 20px;
     align-items: center;

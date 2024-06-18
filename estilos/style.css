@@ -48,11 +48,17 @@ h1{
     padding: 200px 0px;
     color: white;
     text-align: center;
-    background-image: linear-gradient(to left,#7700ff,#f3093c, #0a6fe2);
+    background-image: linear-gradient(to left,#0f8286,#034896,#370f9e );
     background-size: 500%, 100%;
     animation: degrade-bandeira 5s infinite alternate; 
-
+     margin-top: 50px;
     
+}
+
+.bandeira h1{
+    font-size: 1.5em;
+    width: 80%;
+    font-family: var(--font-principal);
 }
 
 @keyframes degrade-bandeira {
@@ -114,7 +120,7 @@ header a{
     color: white;
 }
 
-header a:hover{
+header ul a:hover{
     color: var(--cor1);
     font-weight: 600;
     transition-duration: 0.5s;
@@ -133,6 +139,11 @@ header a:hover{
     border-radius: 10px;
     right: 20px;
     top: 200px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 3px rgb(255, 255, 255);
 }
 
 main{
@@ -186,19 +197,99 @@ h2{
    
 }
 
+.contato a{
+    text-decoration: none;
+    color: white;
+}
+
+.contato a:hover{
+    color: var(--cor1);
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.contato{
+    background-image: linear-gradient(45deg, #f3551b 30%, #fab8a0);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
 main .sessao2{
-    margin-top: 100px;
+    margin-top: 120px;
+    text-align: center;
+   
+    
+  
+}
+
+
+
+.titulo-site{
+    font-size: 2em;
+   
+}
+
+main .port{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height:auto;
-    gap: 20px;
+    gap: 100px;
+   
+    
+}
+.port button{
+    display: block;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 1.6em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.185);
+    margin:  auto;
+    cursor: pointer;
+}
+
+.port button a{
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-principal);
+    font-weight: 400;
+}
+
+
+
+.btn-acesse{
+    background-image: linear-gradient(45deg,#e98a5e, #eb4e10);
+    background-size: 500%, 100%;
+    animation: degrade-bandeira 3s infinite alternate; 
+    
+
     
 }
 
-.portfolio {
+@keyframes degrade-bandeira {
+    0%{
+        background-position-x: 0%;
+
+    }
+
+    100%{
+        background-position-x: 100%;
+    }
+    
+}
+    
+
+
+.portfolio { 
+    margin-bottom: 30px;
     width: 350px;
     height: 600px;
     background-size: cover;
@@ -242,10 +333,155 @@ main .sessao2{
     background-image: url(../imagens/site3.jpg);
 }
 
-/* Adicione regras de media query para ajustar o tamanho dos portfólios em dispositivos menores, se necessário */
+
+footer{
+  
+    background-color: rgb(246, 246, 247);
+    padding: 40px 0px;
+  
+   
+}
+
+footer h3{
+    color: var(--cor5);
+}
+.sessao-footer{
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+
+.sessao-footer  h3,li, p ,a {
+    margin-bottom: 10px;
+   
+}
+
+.sessao-footer div{
+    margin-bottom: 15px;
+}
+
+footer ul, a{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: 500;
+}
+.endereco{
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+h3{
+    color: var(--cor5);
+}
+
+
+.links-uteis > li > a:hover{
+    color: var(--cor5);
+}
+
+.nav-footer{
+  margin: 25px 0px;
+}
+
+.form {
+  
+  width: 300px;
+  font-size: 1.125rem;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+
+.form label {
+  color: var(--cor1);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+  min-height: 7rem;
+  resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--cor1);
+  box-shadow: 0 0 0 2px var(--cor1);
+}
+
+.form button {
+  display: block;
+  padding: 1rem;
+  background: var(--cor1);
+  color: #fff;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background: var(--cor5);
+}
+
+.contato-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.contato-footer a:hover{
+    color: var(--cor1);
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.contato-footer{
+    background-image: linear-gradient(45deg, #f3291b 20%, #fab8a0);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.divisoria{
+    display: block;
+    width: 90%;
+    height: 1px;
+    background-color: #000000;
+    margin: 10px auto;
+}
+
 @media screen and (max-width: 768px) {
     .portfolio {
         width: 330px;
         height: 500px;
-    }
-}
+    }}

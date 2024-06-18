@@ -26,7 +26,7 @@ main .apresentacao h1{
 
 main .habilidades{
    position: absolute;
-   top: 50px;
+   top: 0px;
    right: 25%;
    
 }
@@ -44,10 +44,42 @@ h2{
   
 }
 
-main .sessao2{
+main .port{
    display: flex;
    justify-content: space-around;
    flex-direction: row;
    gap: 20px;
    
+}
+
+.footer{
+   height: 300px;
+ }
+ .sessao-footer{
+ 
+   justify-content: start;
+   flex-direction: row;
+   
+ }
+ 
+ .form {
+   
+   width: 300px;
+   font-size: 1.125rem;
+ }
+ 
+ .links-uteis > li{
+   font-size: 1.3em;
+   margin: 20px 0px;
+ }
+ 
+ .sessao-footer > div{
+ margin-top: 25px;
+ margin-right: 60px;
+ }
+
+@media screen and (max-width:1160px) {
+   main .port{
+       flex-direction: column;
+   }
 }

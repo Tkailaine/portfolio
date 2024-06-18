@@ -12,30 +12,28 @@
 </head>
 <body>
 
-    <header>
+    <header id="inicio">
 
         <nav>
             <a href="#"><img  id="logo" src="imagens/logo-branca.png" alt="logo Thaissa Kailaine"></a>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Portifólio</a></li>
+                <li><a href="#">Portfólio</a></li>
             </ul>
         </nav>
 
    
 
         <div>
-            <button class="btn" type="button"><a href="#"> Me contate</a></button>
+            <button class="btn" type="button"><a href="https://api.whatsapp.com/send?phone=5511913255296&text=Ol%C3%A1%20Thaissa!%20Estou%20interessado%20em%20criar%20um%20site%20para%20meu%20neg%C3%B3cio." target="_blank"> Me contate</a></button>
         </div>
 
     </header>
     <main>
 
         <div class="sessao1">
-            <div class="bandeira" style="display: none;">
-                <h1>Transformando pixels em experiências memoráveis: o seu site, nossa arte digital.</h1>
-            </div>
+           
             <div class="apresentacao">
                 <h1>Thaissa Kailaine</h1>
                 <p>Apaixonada por tecnologia e design, atualmente cursando Ciência da Computação na UFABC. Minha jornada no mundo digital começou cedo, e desde então tenho me dedicado a criar experiências visuais impactantes e funcionais para a web.</p>
@@ -49,6 +47,10 @@
                 <img src="imagens/estrelas.png" alt="avaliação">
                 <h2>JavaScript</h2>
                 <img src="imagens/estrelas-1.png" alt="avaliação">
+
+                <div>
+                    <button class="contato" type="button"><a href="https://api.whatsapp.com/send?phone=5511913255296&text=Ol%C3%A1%20Thaissa!%20Estou%20interessado%20em%20criar%20um%20site%20para%20meu%20neg%C3%B3cio." target="_blank"> Me contate</a></button>
+                </div>
             
             </div>
         </div>
@@ -56,22 +58,91 @@
         <div class="cursos">
 
         </div>
-
+        
+        
         <div class="sessao2">
-            <div class="portfolio site1"></div>
-            <div class="portfolio site2"></div>
-            <div class="portfolio site3"></div>
+            <h1 class="titulo-port" style=" margin-bottom: 50px;">Portfólio</h1>
+
+            <div class="port">
+                <div>
+                    <h2 class="titulo-site">Advocacia</h2>
+                    <div class="portfolio site1"></div>
+                   
+                    <button class="btn-acesse" type="button"><a href="#">Acesse </a></button>
+                </div>
+                <div>
+                    <h2 class="titulo-site">Cafeteria</h2>
+                    <div class="portfolio site2"></div>
+                    <button class="btn-acesse" type="button"><a href="#">Acesse </a></button>
+                </div>
+                <div>
+                    <h2 class="titulo-site">Autônomo</h2>
+                    <div class="portfolio site3"></div>
+                    <button class="btn-acesse" type="button"><a href="#">Acesse </a></button>
+                </div>
+            </div>
         </div>
 
-
-
-
-
-
-
+           
+            <div class="bandeira" >
+                <h1 style="color: white;">Transformando pixels em experiências memoráveis: o seu site, nossa arte digital.</h1>
+            </div> 
+            
 
     </main>
     
-   
+
+    <footer> 
+        
+        <div class="sessao-footer">
+ 
+         <div>
+                <div>
+                 <img src="imagens/logo-preta.png" style="width: 150px; margin-bottom:15px; margin-left: -50px;" alt="Logo Thaissa Kailaine Web Designer"><h3>Contato</h3>
+                 <p>Email: thaissakailaine.ti@gmail.com<br> Telefone: (11) 91325-5296</p>
+                 <div>
+                    <button class="contato-footer" type="button"><a href="https://api.whatsapp.com/send?phone=5511913255296&text=Ol%C3%A1%20Thaissa!%20Estou%20interessado%20em%20criar%20um%20site%20para%20meu%20neg%C3%B3cio." target="_blank"> Me contate</a></button>
+                </div>
+                </div>
+             
+         </div>
+ 
+         <div>
+             
+             <h3>Links Úteis</h3>
+                 <ul class="links-uteis">
+                     <li><a href="#inicio" target="_self">Página Inicial</a></li>
+                     <li><a href="#area-atuacao" target="_self">Portfólio</a></li>
+                     <li><a href="#sobre-mim" target="_self">Sobre mim</a></li>
+                     <li> <a href="creditos.txt" download="creditos.txt">Baixar Arquivo com Créditos</a></li>
+                 </ul>
+         </div>
+ 
+         <div class="contato-form">
+             <h3>Entre em Contato</h3>
+             <form
+       action="https://formsubmit.co/thaissakailaine.ti@gmail.com"
+       method="POST"
+       class="form"
+     >
+       <label for="name">Nome</label>
+       <input type="text" name="name" id="name" required />
+       <label for="email">E-mail</label>
+       <input type="email" name="email" id="email" required />
+       <label for="message">Mensagem</label>
+       <textarea name="message" id="message" required></textarea>
+       <input type="hidden" name="_captcha" value="false" />
+       
+       <button type="submit">Enviar</button>
+     </form>
+         </div>
+        </div>
+ 
+ 
+        <span class="divisoria"></span>
+         <div style="text-align: center;">
+             &copy;Todos os direitos reservados. Site feito por Thaissa.kailaine
+         </div>
+     </footer>
 </body>
 </html>
