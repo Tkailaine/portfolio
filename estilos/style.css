@@ -190,8 +190,11 @@ main .sessao2{
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height:auto;
+    gap: 20px;
     
 }
 
@@ -210,7 +213,7 @@ main .sessao2{
     0% {
         background-position: 100% 0%;
     }
-    14.28% {
+    5.28% {
         background-position: 100% 0%; /* Pausa no início */
     }
     42.86% {
@@ -242,7 +245,7 @@ main .sessao2{
 /* Adicione regras de media query para ajustar o tamanho dos portfólios em dispositivos menores, se necessário */
 @media screen and (max-width: 768px) {
     .portfolio {
-        width: 250px;
-        height: 400px;
+        width: 330px;
+        height: 500px;
     }
 }

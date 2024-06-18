@@ -49,3 +49,11 @@ h2{
     color: var(--cor1);
   
 }
+
+main .sessao2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 20px;
+    
+ }
