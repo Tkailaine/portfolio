@@ -1,12 +1,17 @@
 @charset "UTF-8";
 
 header{
-   background-image: url(../imagens/header-background-ppp.jpg);
+   background-image: url(../imagens/header-background.jpg);
    
 }
 
 header ul{
     font-size: 0.6em;
+}
+
+.titulo-capa{
+    font-size:1.85em;
+    
 }
 
 .bandeira h1{

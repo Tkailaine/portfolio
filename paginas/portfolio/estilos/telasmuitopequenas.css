@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+header{
+   background-image: url(../imagens/header-background.jpg);
+   padding: 0px 0px 0px 0px;
+   
+}
+
+header ul{
+    font-size: 0.6em;
+}
+
+.titulo-capa{
+    font-size:1.85em;
+    
+}
+
+.bandeira h1{
+    font-size: 1em;
+}
+
+main .sessao1{
+   width: 100%;
+   margin: auto;
+}
+
+main h1{
+    font-size: 2em;
+    font-weight: 100;
+    color: var(--cor4);
+    
+}
+
+
+.portfolio{
+    width: 295px;
+    height: 500px;
+   
+}
+
+main .port{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:auto;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+    
+   
+    
+   
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+ 
+
+}
+
+.container .txt-port{
+    width: 250px;
+    text-align: justify;
+}
+
+.container .txt-port p, li{
+   font-size: 1em;
+   margin-bottom: 25px;
+  
+}
+
+.container .txt-port li{
+    margin-left: 25px;
+    text-align: left;
+   
+ }

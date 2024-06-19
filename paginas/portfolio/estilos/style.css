@@ -51,7 +51,7 @@ h1{
     background-image: linear-gradient(to left,#0f8286,#034896,#370f9e );
     background-size: 500%, 100%;
     animation: degrade-bandeira 5s infinite alternate; 
-     margin-top: 50px;
+    
     
 }
 
@@ -97,7 +97,7 @@ header ul{
     list-style: none;
     background-image: linear-gradient(40deg,  #117c88 50%, #00e5ff);
     width: 400px;
-    padding: 10px 10px 5px 10px;
+    padding: 10px 10px 0px 10px;
     border-radius: 10px;
     margin-right: 20px;
     gap:10px;
@@ -161,7 +161,7 @@ header ul a:hover{
 .redes{
     position: absolute;
     right: 20px;
-    top: 420px;
+    top: 400px;
     
 }
 
@@ -174,12 +174,12 @@ header ul a:hover{
 }
 
 .iredes  img{
-    width: 32px;
+    width: 40px;
     transition-duration: 1s;
 }
 
 .iredes  img:hover{
-    width: 50px;
+    width: 60px;
 }
 
 .igit{
@@ -187,6 +187,7 @@ header ul a:hover{
 }
 main{
     position: relative;
+    
    
 }
 
@@ -194,21 +195,39 @@ main .sessao1{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+    color: white;
+    padding-bottom: 20px;
 
-main h1{
-    font-size: 2.5em;
-    font-weight: 100;
-    color: var(--cor4);
     
 }
 
+.branco{
+    background-color: #EAEAEA;
+}
 
+.verde{
+    background-color: var(--cor3);
+}
+
+.azul{
+    background-color: var(--cor2);
+}
+main h1{
+    font-size: 2.5em;
+    font-weight: 100;
+    color: white;
+    
+}
+
+.apresentacao{
+  
+}
 main .apresentacao p{
     font-family: var(--font-principal);
     width: 300px;
     text-align: justify;
     line-height: 2em;
+    
 }
 
 main .habilidades{
@@ -274,25 +293,59 @@ main .sessao2{
 
 main .port{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     height:auto;
-    gap: 100px;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+
+   
+    
    
     
 }
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px    
+
+ 
+
+}
+
+.container .txt-port{
+    width: 330px;
+    text-align: justify;
+}
+
+.container .txt-port p, li{
+   font-size: 1em;
+   margin-bottom: 25px;
+   
+  
+}
+
+.container .txt-port li{
+    margin-left: 25px;
+   
+ }
+
+
+
 .port button{
     display: block;
     border: none;
-    width: 200px;
-    height: 50px;
-    font-size: 1.6em;
+    width: 120px;
+    height: 40px;
+    font-size: 1.3em;
     border-radius: 10px;
     box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.185);
     margin:  auto;
     cursor: pointer;
+    margin-top: 40px;
 }
 
 .port button a{
@@ -308,7 +361,7 @@ main .port{
     background-image: linear-gradient(45deg,#e98a5e, #eb4e10);
     background-size: 500%, 100%;
     animation: degrade-bandeira 3s infinite alternate; 
-    
+
 
     
 }
@@ -361,15 +414,15 @@ main .port{
 }
 
 .site1 {
-    background-image: url(../imagens/site1.jpg);
+    background-image: url(../../../imagens/site1.jpg)
 }
 
 .site2 {
-    background-image: url(../imagens/site2.jpg);
+    background-image: url(../../../imagens/site2.jpg);
 }
 
 .site3 {
-    background-image: url(../imagens/site3.jpg);
+    background-image: url(../../../imagens/site3.jpg);
 }
 
 

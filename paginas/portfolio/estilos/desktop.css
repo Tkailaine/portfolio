@@ -16,33 +16,10 @@ header{
    right: 20px;
 
 }
-main .apresentacao p{
-   font-family: var(--font-principal);
-   width: 40%;
-   text-align: justify;
-   margin-left: 100px;
 
-
-}
-
-main .apresentacao h1{
-   margin-left: 100px;
-}
-
-main .habilidades{
-   position: absolute;
-   top: 0px;
-   right: 25%;
-   
-}
-
-main .habilidades h1, h2{
-   font-family: var(--font-destaque);
-   font-weight: 100;
-   font-size: 1.3em;
-   
-
-}
+.container{
+   gap: 50px;
+ }
 
 h2{
    color: var(--cor1);
@@ -53,9 +30,39 @@ main .port{
    display: flex;
    justify-content: space-around;
    flex-direction: row;
-   gap: 80px;
+   gap: 20px;
    
 }
+
+.container .txt-port p, li{
+   font-size: 1em;
+   margin-bottom: 25px;
+   
+  
+}
+
+.iredes  img{
+   width: 60px;
+}
+
+
+h2{
+   color: var(--cor1);
+ 
+}
+
+.iredes  img:hover{
+   width: 80px;
+}
+
+
+h2{
+   color: var(--cor1);
+ 
+}
+
+
+
 
 .footer{
    height: 300px;
