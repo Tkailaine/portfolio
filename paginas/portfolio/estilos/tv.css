@@ -36,13 +36,15 @@ header ul{
     text-align: justify;
 }
 
-.container .txt-port p, li{
+.container .txt-port p{
    font-size: 1.5em;
    margin-bottom: 25px;
   
 }
 
 .container .txt-port li{
+    font-size: 1.5em;
+    margin-bottom: 25px;
     margin-left: 25px;
    
  }

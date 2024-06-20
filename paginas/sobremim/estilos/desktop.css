@@ -4,6 +4,13 @@ header{
    
 }
 
+.iredes  img{
+   width: 60px;
+}
+.iredes  img:hover{
+   width: 80px;
+}
+
 .titulo-capa{
    font-size:5em;
    
@@ -17,36 +24,21 @@ header{
 
 }
 
-.container{
-   gap: 50px;
- }
+main .apresentacao{
+   max-width:600px;
+}
+
+main .habilidades  h2{
+   font-size: 1.3em;
+   
+
+}
 
 h2{
    color: var(--cor1);
   
 }
 
-main .port{
-   display: flex;
-   justify-content: space-around;
-   flex-direction: row;
-   gap: 20px;
-   
-}
-
-.container .txt-port p li{
-   font-size: 1em;
-   margin-bottom: 25px;
-   
-  
-}
-
-.iredes  img{
-   width: 60px;
-}
-.iredes  img:hover{
-   width: 80px;
-}
 
 
 .footer{

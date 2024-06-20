@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+header{
+   background-image: url(../imagens/header-background.jpg);
+   
+}
+
+header ul{
+    font-size: 0.6em;
+}
+
+.titulo-capa{
+    font-size:1.85em;
+    
+}
+
+.bandeira h1{
+    font-size: 1em;
+}
+
+main .sessao1{
+   width: 80%;
+   margin: auto;
+}
+
+main h1{
+    font-size: 2em;
+    font-weight: 100;
+    color: var(--cor4);
+    
+}
+
+main .apresentacao p{
+   font-size: 0.8em;
+    line-height: 2em;
+}
+
+
+    
+main .habilidades ul li img{
+    width: 28px;
+}
+    
+
+main .habilidades h1{
+    font-size: 1.2em;
+
+}
+
+main .habilidades h2{
+    font-size: 1em;
+
+}
+
+.sessao2 p{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.sessao2 h1{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.contato{
+    background-image: linear-gradient(45deg, #f3551b 30%, #fab8a0);
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+.port{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.portfolio{
+    width: 300px;
+    height: 500px;
+   
+}

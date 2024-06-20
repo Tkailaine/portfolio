@@ -1,0 +1,35 @@
+Gostaríamos de expressar nossos agradecimentos sinceros às plataformas Freepik e flaticon pela disponibilidade das imagens utilizadas em nosso site. 
+Agradecemos também a todos os criadores cujas obras enriqueceram nosso conteúdo visual. Confira os links dos recursos:
+
+<a href="https://www.freepik.com/free-vector/set-torn-ripped-paper-sheets-texture_8563083.htm#fromView=search&page=1&position=2&uuid=c4b52726-6970-458b-a0e6-87e194481812">Image by starline on Freepik</a>
+rasgo
+
+<a href="https://www.freepik.com/free-vector/vintage-monochrome-astronaut-concept_8084185.htm#fromView=search&page=1&position=25&uuid=1379f2b6-65f7-46f5-be19-0da172c1ac16">Image by dgim-studio on Freepik</a>
+astronauta
+
+<a href="https://www.freepik.com/free-vector/grunge-dusty-texture-background_3857029.htm#fromView=search&page=1&position=1&uuid=105598cf-8a0f-431f-9080-456f9b7a3c17">Image by kjpargeter on Freepik</a>
+textura2
+
+<a href="https://www.flaticon.com/br/icones-gratis/github" title="github ícones">Github ícones criados por riajulislam - Flaticon</a>
+icone github
+
+<a href="https://br.freepik.com/vetores-gratis/elementos-monocromaticos-de-espaco-definido-com-onibus-espacial-astronauta-e-foguetes-observatorio-de-objetos-cosmicos-e-radar-isolado_9377764.htm#fromView=search&page=3&position=33&uuid=99c0aaca-3dd3-42f1-84c6-916c281930c3">Imagem de macrovector no Freepik</a>
+elementos galaxia
+
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
+icone-photoshop
+
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
+ícone adobe illustrator
+
+<a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons">Html 5 icons created by Freepik - Flaticon</a>
+icone html
+
+<a href="https://www.flaticon.com/free-icons/css-3" title="css 3 icons">Css 3 icons created by Freepik - Flaticon</a>
+ícone css
+
+<a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Freepik - Flaticon</a>
+ícone js
+
+
+

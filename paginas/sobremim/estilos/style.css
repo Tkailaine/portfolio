@@ -1,3 +1,14 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 :root{
     --cor1: #151F30;
     --cor2: #103778;
@@ -41,6 +52,7 @@ h1{
     background-size: 500%, 100%;
     animation: degrade-bandeira 3s infinite alternate; 
 
+    
 }
 
 .bandeira h1{
@@ -63,7 +75,7 @@ h1{
 
 header{
     position: relative;
-    background-image: url(../imagens/header-background.jpg) ;
+    background-image: url(../imagens/header-background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,6 +145,7 @@ header ul a:hover{
 .btn:hover{
     box-shadow: 2px 2px 3px rgb(255, 255, 255);
 }
+
 .titulo-capa{
     color: white;
     position: absolute;
@@ -174,68 +187,88 @@ header ul a:hover{
 }
 main{
     position: relative;
-    
    
 }
 
 main .sessao1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    padding-bottom: 20px;
-
+    margin-top: 50px;
+    padding-bottom: 50px;
+ 
     
 }
 
-.branco{
-    background-color: #EAEAEA;
-}
-
-.verde{
-    background-color: var(--cor3);
-}
-
-.azul{
-    background-color: var(--cor2);
-}
 main h1{
     font-size: 2.5em;
     font-weight: 100;
-    color: white;
+    color: var(--cor4);
     
 }
 
-.apresentacao{
-  
+main .itens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+     
 }
+
+main .apresentacao{
+    min-width: 300px;
+    max-width:400px;
+}
+
 main .apresentacao p{
     font-family: var(--font-principal);
-    width: 300px;
     text-align: justify;
     line-height: 2em;
-    
-}
-
-main .habilidades{
-margin-top: 30px;
-margin-left: -140px;
-
-
-}
-
-main .habilidades img{
-    width: 120px;
-    margin-left: -10px;
 }
 
 
-main .habilidades h1, h2{
-    font-family: var(--font-destaque);
-    font-weight: 100;
-    font-size: 1.4em;
+
+main .habilidades ul li{
+    display: flex;
+    gap: 10px;
+}
+
+main .habilidades ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+main .habilidades ul li img{
+    width: 35px;
+}
+
+main .habilidades h1{
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+main .habilidades h2{
 
 }
+
+.conhecimento h2{
+     font-family: var(--font-destaque); 
+     font-weight: 100;
+     font-size: 1.2em;
+    }
+
+.escolar{
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.academico h2{
+    font-family: var(--font-principal);
+    color: white;
+    font-weight: 400;
+ 
+}
+
 
 h2{
     color: var(--cor1);
@@ -263,154 +296,9 @@ h2{
     cursor: pointer;
 }
 
-main .sessao2{
-    margin-top: 120px;
-    text-align: center;
-   
-    
-  
-}
 
 
 
-.titulo-site{
-    font-size: 2em;
-   
-}
-
-main .port{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height:auto;
-    margin-top: 30px;
-    width: 100%;
-    justify-content: center;
-
-   
-    
-   
-    
-}
-.container{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px    
-
- 
-
-}
-
-.container .txt-port{
-    width: 330px;
-    text-align: justify;
-}
-
-.container .txt-port p, li{
-   font-size: 1em;
-   margin-bottom: 25px;
-   
-  
-}
-
-.container .txt-port li{
-    margin-left: 25px;
-   
- }
-
-
-
-.port button{
-    display: block;
-    border: none;
-    width: 120px;
-    height: 40px;
-    font-size: 1.3em;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.185);
-    margin:  auto;
-    cursor: pointer;
-    margin-top: 40px;
-}
-
-.port button a{
-    text-decoration: none;
-    color: white;
-    font-family: var(--font-principal);
-    font-weight: 400;
-}
-
-
-
-.btn-acesse{
-    background-image: linear-gradient(45deg,#e98a5e, #eb4e10);
-    background-size: 500%, 100%;
-    animation: degrade-bandeira 3s infinite alternate; 
-
-
-    
-}
-
-@keyframes degrade-bandeira {
-    0%{
-        background-position-x: 0%;
-
-    }
-
-    100%{
-        background-position-x: 100%;
-    }
-    
-}
-    
-
-
-.portfolio { 
-    margin-bottom: 30px;
-    width: 350px;
-    height: 600px;
-    background-size: cover;
-    background-position: 100% 0%;
-    border-radius: 20px;
-    cursor: pointer;
-    animation: scrollBackground 20s infinite; /* Ajuste a duração total para incluir as pausas e o retorno */
-    
-}
-
-@keyframes scrollBackground {
-    0% {
-        background-position: 100% 0%;
-    }
-    5.28% {
-        background-position: 100% 0%; /* Pausa no início */
-    }
-    42.86% {
-        background-position: 100% 100%; /* Rola até o final */
-    }
-    57.14% {
-        background-position: 100% 100%; /* Pausa no final */
-    }
-    85.72% {
-        background-position: 100% 0%; /* Rola de volta para o início */
-    }
-    100% {
-        background-position: 100% 0%; /* Pausa no início novamente */
-    }
-}
-
-.site1 {
-    background-image: url(../../../imagens/site1.jpg)
-}
-
-.site2 {
-    background-image: url(../../../imagens/site2.jpg);
-}
-
-.site3 {
-    background-image: url(../../../imagens/site3.jpg);
-}
 
 
 footer{
@@ -564,3 +452,11 @@ h3{
         width: 330px;
         height: 500px;
     }}
+
+    @media screen and (max-width: 690px) {
+
+        main .habilidades{
+            margin-top: 30px ;
+            width: 400px;
+        }
+    }
