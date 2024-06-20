@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+.iredes  img{
+    width: 50px;
+  }
+  .iredes  img:hover{
+    width: 80px;
+  }
+
 .btn{
     font-size: 1em;
     width: 110px;

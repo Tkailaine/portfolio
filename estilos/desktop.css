@@ -4,6 +4,13 @@ header{
    
 }
 
+.iredes  img{
+   width: 60px;
+}
+.iredes  img:hover{
+   width: 80px;
+}
+
 .titulo-capa{
    font-size:5em;
    

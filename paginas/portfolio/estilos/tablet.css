@@ -11,31 +11,16 @@
 .iredes  img{
   width: 50px;
 }
-
-
-h2{
-  color: var(--cor1);
-
-}
-
-
 .iredes  img:hover{
   width: 80px;
 }
 
-
 h2{
   color: var(--cor1);
 
 }
 
 
-
-
-h2{
-    color: var(--cor1);
-
-}
 
 .container{
   gap: 50px;

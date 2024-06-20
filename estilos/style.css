@@ -50,7 +50,7 @@ h1{
     text-align: center;
     background-image: linear-gradient(to left,#0f8286,#034896,#370f9e );
     background-size: 500%, 100%;
-    animation: degrade-bandeira 5s infinite alternate; 
+    animation: degrade-bandeira 3s infinite alternate; 
      margin-top: 50px;
     
 }
@@ -161,7 +161,7 @@ header ul a:hover{
 .redes{
     position: absolute;
     right: 20px;
-    top: 420px;
+    top: 400px;
     
 }
 
@@ -174,12 +174,12 @@ header ul a:hover{
 }
 
 .iredes  img{
-    width: 32px;
+    width: 50px;
     transition-duration: 1s;
 }
 
 .iredes  img:hover{
-    width: 50px;
+    width: 65px;
 }
 
 .igit{

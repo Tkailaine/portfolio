@@ -10,6 +10,16 @@ header ul{
  
 }
 
+.iredes  img{
+    width: 70px;
+    transition-duration: 1s;
+}
+
+.iredes  img:hover{
+    width: 90px;
+}
+
+
 .titulo-capa{
     font-size:6em;
     
