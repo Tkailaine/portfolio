@@ -1,67 +1,96 @@
 @charset "UTF-8";
 
-header{
-   background-image: url(../imagens/header-background.jpg);
-   
-}
+.logo > a > img{
+    width: 115px;
+  }
+  
+  .imenu span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin-bottom: 5px;
+  }
+  
+  .btn-contato{
+  font-size: 0.7em;
+  width: 100px;
+  }
 
-header ul{
-    font-size: 0.6em;
-}
-
-.titulo-capa{
-    font-size:1.85em;
-    
-}
-
-.bandeira h1{
-    font-size: 1em;
-}
-
-main .sessao1{
-   width: 85%;
-   margin: auto;
-}
-
-main h1{
-    font-size: 2em;
-    font-weight: 100;
-    color: var(--cor4);
-    
-}
-
-main .apresentacao p{
-   font-size: 0.8em;
-    line-height: 2em;
-}
-
-
-main .habilidades{
-
-    margin-left: -160px;
-    
-    
-}
-    
- main .habilidades img{
-        width: 100px;
-        margin-left: -8px;
-}
-    
-
-main .habilidades h1, h2{
+  .sessao1 h1{
     font-size: 1.2em;
-
 }
 
-.port{
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
+.btn{
+  background-color: var(--cor2);
+  width: 140px;
+  height: 40px;
+ font-size: 0.8em;
 }
 
-.portfolio{
-    width: 300px;
-    height: 500px;
-   
+
+.modelo{
+  width: 250px;
+  height:280px;
+}
+
+.modelo:hover{
+  transform: translateY(0px);
+  transition-duration: 0s;
+}
+
+.sessao2-conteudo{
+  width: 80%;
+ font-size: 0.85em;
+ margin: 70px auto 25px auto;
+}
+
+.box-background{
+  width: 280px;
+  height: 200px;
+}
+
+
+.sessao3{
+  font-size: 0.85em;
+  margin: 70px auto 25px auto;
+}
+
+.sessao3 h1{
+  font-size: 1.3em;
+}
+
+.vantagem h2{
+  margin: 20px 0px 5px 25px;
+}
+
+.vantagem p{
+  margin-left: 25px;
+}
+.sessao-vantagens{
+  margin-top: 50px;
+  font-size: 0.85em;
+}
+
+.titulo-oferecimento{
+  font-size: 1.5em ;
+}
+
+.sessao4 h1{
+  font-size: 1em;
+}
+
+.sessão4 h1, p{
+  font-size: 0.85em;
+}
+
+
+.box-oferecimentos{
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  border: 2px solid var(--cor2);
+}
+
+.sessao-footer{
+  font-size: 0.85em;
 }

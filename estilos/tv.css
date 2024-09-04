@@ -1,98 +1,162 @@
 @charset "UTF-8";
 
-header{
-    background-image: url(../imagens/header-background.jpg);
+body, html{
+  scroll-behavior: smooth;
 }
 
-header ul{
-    width: 800px;
-    font-size: 1.2em;
- 
+.logo > a > img{
+  width: 240px;
 }
 
-.iredes  img{
-    width: 70px;
-    transition-duration: 1s;
-}
-
-.iredes  img:hover{
-    width: 90px;
-}
-
-
-.titulo-capa{
-    font-size:6em;
-    
- }
-
-.btn{
-    font-size: 1.2em;
-    width: 120px;
-    height: 50px;
-    right: 10%;
- 
-}
-main .apresentacao p{
-    font-family: var(--font-principal);
-    width: 40%;
-    text-align: justify;
-    margin-left: 100px;
-
-
-}
-
-main .apresentacao h1{
-    margin-left: 100px;
-}
-
-main .habilidades{
-    position: absolute;
-    top: 0px;
-    right: 33%;
-    
-}
-
-main .habilidades h1, h2{
-    font-family: var(--font-destaque);
-    font-weight: 100;
-    font-size: 1.3em;
-    
-
-}
-
-h2{
-    color: var(--cor1);
-  
-}
-
-main .port{
+.desktop{
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    gap: 20px;
-    
- }
+    list-style-type: none;
+  }
+  
+  .imenu{
+    display: none;
+  }
+  .menu-lateral{
+    display:none;
+  }
+  
+  header > nav > .itens  a{
+    font-size: 1.2em;
+    display: block;
+
+  }
+  
+  header > nav > .itens a:hover{
+    background-color:var(--cor2); 
+    color: white;
+    transition-duration: 0.3s;
+    border-radius: 10px;
+    padding: 3px 5px;
+  }
+  
+  header > nav > .itens{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    gap: 35px;
+  }
+  
+.sessao1 h1{
+    width: 60vw;
+    font-size: 3em;
+}
+.flex-sessao{
+  text-align: left;
+  gap: 0px;
+}
+
+.modelo{
+  width: 450px;
+  height:480px;
+  background-image: url(../imagens/modelo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .sessao2{
-    width: 1200px;
-    margin: auto;
+  flex-direction: row-reverse;
+  margin-top: 50px;
+  font-size: 1.5em;
+  align-items: center;
+}
+
+.sessao2-conteudo{
+  width: 40%;
+  text-align: justify;
+  margin: 50px auto 25px;
+}
+
+.sessao2-conteudo h1{
+  text-align: right;
+}
+
+
+.btn{
+ font-size: 1.2em;
+  width: 300px;
+  height: 60px;
+
+}
+
+.box-background{
+  width: 650px;
+  height: 400px;
+  transform: translateY(0);
+  transition: transform 0.6s ease;
+}
+
+.box-background:hover{
+  transform: translateY(20px);
+  transition-duration: 0.5s;
+}
+
+
+.sessao3{
+  margin: 120px auto 25px;
+  font-size: 1.4em;
+  width: 85%;
+}
+
+.sessao4{
+  width: 1200px;
+  margin: auto;
+
+}
+
+.box-oferecimentos{
+  transform: translateY(0);
+  transition: transform 0.6s ease;
+}
+
+.box-oferecimentos:hover{
+  transform: translateY(-10px);
+  transition-duration: 0.4s;
+}
+
+.port{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  gap: 50px;
+}
+
+.sessao-vantagens h1{
+  font-size: 2em;
+}
+
+.vantagem{
+  width: 70%;
 }
 
 .sessao-footer{
+  justify-content: start;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.links-uteis > li{
+  font-size: 1.4em;
+  margin: 20px 0px;
+}
+
+@media (max-width:1445px){
  
-    justify-content: start;
-    flex-direction: row;
-    gap: 60px;
-    
-  }
-.form {
+.port{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  width: 800px;
+  gap: 50px;
+
   
-    width: 300px;
-    font-size: 1.125rem;
-  }
-  
-  .links-uteis > li{
-    font-size: 1.4em;
-    margin: 20px 0px;
-  }
-  
+}
+}

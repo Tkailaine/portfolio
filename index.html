@@ -3,121 +3,234 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thaissa Kailaine Web Designer</title>
+    <title>PulseCode</title>
     <link rel="stylesheet" href="./estilos/style.css" media="all">
     <link rel="stylesheet" href="./estilos/telasmuitopequenas.css" media="screen and (max-width:480px)">
     <link rel="stylesheet" href="./estilos/tablet.css" media="screen and (min-width:768px) and (max-width:991px)">
     <link rel="stylesheet" href="./estilos/desktop.css" media="screen and (min-width:992px) and (max-width:1199px)">
     <link rel="stylesheet" href="./estilos/tv.css" media="screen and (min-width:1200px)">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-
     <header id="inicio">
-
         <nav>
-            <a href="#"><img  id="logo" src="imagens/logo-branca.png" alt="logo Thaissa Kailaine"></a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="paginas/sobremim/sobremim.html">Sobre mim</a></li>
-                <li><a href="paginas/portfolio/portfolio.html">Portfólio</a></li>
-            </ul>
-        </nav>
-
-   
-
-        <div>
-            <h1 class="titulo-capa">Web Designer</h1>
-            <button class="btn" type="button"><a href="https://api.whatsapp.com/send?phone=5511913255296&text=Ol%C3%A1%20Thaissa!%20Estou%20interessado%20em%20criar%20um%20site%20para%20meu%20neg%C3%B3cio." target="_blank"> Me contate</a></button>
-        </div>
-
-        <div class="redes">
-            <div class="iredes">
-                <a href="https://api.whatsapp.com/send?phone=5511913255296&text=Ol%C3%A1%20Thaissa!%20Estou%20interessado%20em%20criar%20um%20site%20para%20meu%20neg%C3%B3cio." target="_blank"><img src="imagens/iwhatsapp.png" alt="ícone whatsapp"></a>
-                <a href="https://www.linkedin.com/in/me/" target="_blank"><img src="imagens/ilinkedIn.png" alt="ícone linkedlin"></a>
-                <a href="https://github.com/Tkailaine" target="_blank"><img class="igit" src="imagens/igithub.png" alt="ícone github"></a>
+            <div class="logo">
+                <a href="#"><img src="imagens/Logo.png" alt="Logo PulseCode"></a>
             </div>
-        </div>
 
-    </header>
-    <main>
+            <div class="imenu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </div>
 
-        <div class="sessao1">
+            <div class="itens desktop">
+                <div><a href="#inicio" target="_self">Home</a></div>
+                <div><a href="#sessao-sobre" target="_self">Quem somos</a></div>
+                <div><a href="#investimento" target="_self">Investimento</a></div>
+               <div><a href="#portfolio" target="_self">Portfólio</a></div>
+                <div><a href="#funcionamento" target="_self">Como funciona</a></div>
+            </div>
+
+            <div class="menu-lateral">
+                <div class="close-btn"> &times;</div>
+                <ul class=" lateral">
+                    <li><a href="#inicio" target="_self">Home</a> 
+                    <li><a href="#sessao-sobre" target="_self">Quem somos</a>
+                    <li><a href="#investimento" target="_self">Investimento</a>
+                   
+                    <li><a href="#portfolio" target="_self">Portfólio</a>
+                    <li><a href="#funcionamento" target="_self">Como Funciona</a>
+                </ul>
+            </div>
+
            
-            <div class="apresentacao">
-                <h1>Thaissa Kailaine</h1>
-                <p>Apaixonada por tecnologia e design, atualmente cursando Ciência da Computação na UFABC. Minha jornada no mundo digital começou cedo, e desde então tenho me dedicado a criar experiências visuais impactantes e funcionais para a web.</p>
-                <p>Como estudante de Ciência da Computação, adquiri uma sólida compreensão dos fundamentos da programação e da lógica computacional, o que me permite criar sites não apenas bonitos, mas também eficientes e de alto desempenho. Meu objetivo é sempre aliar estética e funcionalidade, garantindo que cada projeto seja único e atenda às necessidades específicas de cada cliente.</p>
-            </div>
-            <div class="habilidades">
-                <h1>Habilidades</h1>
-                <h2>HTML & CSS</h2>
-                <img src="imagens/estrelas.png" alt="avaliação">
-                <h2>Responsividade</h2>
-                <img src="imagens/estrelas.png" alt="avaliação">
-                <h2>JavaScript</h2>
-                <img src="imagens/estrelas-1.png" alt="avaliação">
+            <div>
+                <a href="https://wa.link/28ukpj" target="_blank"><input type="button" value="Fale Conosco" class="btn-contato"></a>
+            </div>   
+        </nav>
+    </header>
 
+    <main>
+        <section class="sessao1">
+            <div class="flex-sessao">
                 <div>
-                    <button class="contato" type="button"><a href="https://api.whatsapp.com/send?phone=5511913255296&text=Ol%C3%A1%20Thaissa!%20Estou%20interessado%20em%20criar%20um%20site%20para%20meu%20neg%C3%B3cio." target="_blank"> Me contate</a></button>
+                    <h1>Sua marca, <strong>energizada</strong> e <strong>transformada</strong> pelo nosso desenvolvimento web</h1>
+                    <button class="btn"><a href="https://wa.link/28ukpj" target="_blank">Pedir orçamento</a></button>
                 </div>
-            
+
+                <div class="modelo">
+                </div>
+
             </div>
-        </div>
-
-        <div class="cursos">
-
-        </div>
+        </section>
         
-        
-        <div class="sessao2">
-            <h1 class="titulo-port" >Portfólio</h1>
+       
+
+        <section class="sessao2" id="sessao-sobre"> 
+            
+            <div class="sessao2-conteudo surge-bottom">
+                <h1>Quem somos</h1>
+                <p>Somos apaixonados em causar impacto e credibilidade para marcas, <strong>pulsionamos</strong> a imagem da sua empresa através de um site moderno e elegante</p>
+            </div>
+
+            <div class="box-background">
+                <div class="box-principal">
+                    <div class="box-secundario"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao3" id="investimento">
+            <h1>Seu melhor investimento</h1>
+            <p>Ter um site é um investimento estratégico para qualquer negócio ou profissional. Ele funciona como uma vitrine digital aberta 24 horas por dia, permitindo que clientes potenciais encontrem seus serviços ou produtos a qualquer momento. Em um mundo cada vez mais conectado, um site não é apenas um custo, mas um ativo essencial que pode gerar retornos significativos ao longo do tempo.</p>
+           
 
           
-
-            <div class="port">
-                <div>
-                    <h2 class="titulo-site">Advocacia</h2>
-                    <div class="portfolio site1"></div>
-                   
-                    <button class="btn-acesse" type="button"><a href="https://tkailaine.github.io/projeto-advocacia/" target="_blank">Acesse </a></button>
-                </div>
-                <div>
-                    <h2 class="titulo-site">Cafeteria</h2>
-                    <div class="portfolio site2"></div>
-                    <button class="btn-acesse" type="button"><a href="https://tkailaine.github.io/Projeto-cafeteria/" target="_blank">Acesse </a></button>
-                </div>
-                <div>
-                    <h2 class="titulo-site">Autônomo</h2>
-                    <div class="portfolio site3"></div>
-                    <button class="btn-acesse" type="button"><a href="https://tkailaine.github.io/projeto-apex/" target="_blank">Acesse</a></button>
-                </div>
-            </div>  
-            <div>
-                <button class="contato" type="button" style=" margin-top: 50px; width: 100px;"><a href="paginas/portfolio/portfolio.html" target="_self"> Portfólio Completo</a></button>
+        </section>
+        
+        <section class="sesssao7">
+            <div class="sessao-vantagens">
+            <h1>Vantagens de ter um site</h1>
+            <div class="vantagem surge-right">
+                <h2>Credibilidade e profissionalismo</h2>
+                <p>Um site bem projetado passa uma imagem profissional, aumentando a confiança dos clientes em sua marca ou produto.</p>
             </div>
+            <div class="vantagem surge-left">
+                <h2>Seja encontrado no Google</h2>
+            <p>
+                Um dos principais benefícios de ter um site é ser encontrado facilmente no Google e outros motores de busca, atraindo visitantes que procuram por termos relacionados ao seu negócio.</p>                
+            </div>
+            <div class="vantagem surge-right">
+                <h2>Aumente suas vendas</h2>
+                <p>Conquiste mais clientes transmitindo uma excelente primeira impressão com um site profissional, de alta qualidade e conversão.</p>
+            </div>
+            <div class="vantagem surge-left">
+                <h2>Expanda seu mercado</h2>
+                <p>Um site permite que seu negócio esteja acessível a clientes em qualquer parte do mundo, rompendo barreiras geográficas que limitam uma loja física</p>
+            </div>
+         <button class="btn surge-bottom" style="margin:35px auto; display: block;"><a href="https://wa.link/28ukpj" target="_blank">Fazer orçamento</a></button>
         </div>
 
-           
-            <div class="bandeira" >
-                <h1 style="color: white;">Transformando pixels em experiências memoráveis: o seu site, nossa arte digital.</h1>
-            </div> 
-            
+        </section>
 
+
+        <h1 class="titulo-oferecimento">Oferecemos:</h1>
+        <section class="sessao4 animate">
+            <div class="box-oferecimentos surge-right">
+                <div class="icone designer"></div>
+                <h1>Designer moderno</h1>
+                <p>Designer atraente e modernos para captar novos clientes</p>
+            </div>
+
+            <div class="box-oferecimentos surge-left">
+                <div class="icone responsividade"></div>
+                <h1>Responsividade</h1>
+                <p>Layout consciente que se adapta em diversos tamanhos de tela</p>
+            </div>
+
+            <div class="box-oferecimentos surge-right">
+                <div class="icone animacoes"></div>
+                <h1>Animações</h1>
+                <p>Interações e animações do conteúdo com o visitante ao navegar pelo site</p>
+            </div>
+
+            <div class="box-oferecimentos surge-left">
+                <div class="icone whatsapp"></div>
+                <h1>Whatsapp e Redes sociais</h1>
+                <p>Botões que redirecionam para seu chat no Whatsapp e redes sociais</p>
+            </div>
+
+            <div class="box-oferecimentos surge-right">
+                <div class="icone formulario"></div>
+                <h1>Formulário para contato</h1>
+                <p>Receba feedbacks e mensagens dos seus clientes por email</p>
+            </div>
+
+            <div class="box-oferecimentos surge-left">
+                <div class="icone relatos"></div>
+                <h1>Relatos</h1>
+                <p>Avaliações dos seus clientes destacadas para transmitir maior credibilidade aos visitantes</p>
+            </div>
+        </section>
+
+
+        <section class="sessao5" id="portfolio">
+            <h1>Portfólio</h1>
+            <p><strong>Clique sobre a imagem para visitar o site</strong></p>
+            <div class="port">
+                <a href="https://tkailaine.github.io/projeto-aura/" target="_blank">
+                    <div>
+                        <h2>Hospedagem</h2>
+                        <div class="portfolio site4 surge-left"></div>
+                    </div>
+                </a>
+
+                <a href="https://tkailaine.github.io/projeto-web/maricy%20martinez/" target="_blank">
+                    <div>
+                        <h2>Advocacia</h2>
+                        <div class="portfolio site1 surge-right"></div>
+                    </div>
+                </a>
+
+                <a href="https://tkailaine.github.io/Projeto-cafeteria/" target="_blank">
+                    <div>
+                        <h2>Cafeteria</h2>
+                        <div class="portfolio site2 surge-left"></div>
+                    </div>
+                </a>
+
+                <a href="https://tkailaine.github.io/projeto-apex/" target="_blank">
+                    <div>
+                        <h2>Autônomo</h2>
+                        <div class="portfolio site3 surge-right"></div>
+                    </div>
+                </a>
+            </div>  
+        </section>
+
+        <h1 class="titulo-oferecimento" id="funcionamento" style="text-align: center;">Processo de criação</h1>
+        <section class="sessao6">
+            <div class="box-processo surge-bottom">
+                <div class="icone-processo brienfing"></div>
+                <h1>Brienfing</h1>
+                <p>Após assinatura do contrato, você realizará o preenchimento do formulário (brienfing) com informações essenciais para a construção do seu site</p>
+            </div>
+
+            <div class="box-processo surge-bottom">
+                <div class="icone-processo planejamento"></div>
+                <h1>Planejamento</h1>
+                <p>
+                    Nesta etapa, planejaremos a estrutura do site de acordo com seus interesses. Além disso, você enviará todo o conteúdo que deseja incluir nele</p>
+            </div>
+
+            <div class="box-processo surge-bottom">
+                <div class="icone-processo criacao"></div>
+                <h1>Criação</h1>
+                <p>Hora de colocar a mão na massa! O desenvolvimento do site começará agora, com um prazo de entrega de até 2 semanas, <strong>desde que todo o conteúdo seja enviado</strong></p>
+            </div>
+
+            <div class="box-processo surge-bottom">
+                <div class="icone-processo entrega"></div>
+                <h1>Entrega</h1>
+                <p>Agora é hora das revisões e testes. Em seguida, faremos a entrega dos arquivos e forneceremos orientações para colocar o site no ar</p>
+           </div>
+        </section>
+
+    <script src="script.js"></script>
+      
     </main>
-    
-
+        
     <footer> 
         
         <div class="sessao-footer">
  
          <div>
                 <div>
-                 <img src="imagens/logo-preta.png" style="width: 150px; margin-bottom:15px; margin-left: -50px;" alt="Logo Thaissa Kailaine Web Designer"><h3>Contato</h3>
-                 <p>Email: thaissakailaine.ti@gmail.com<br> Telefone: (11) 91325-5296</p>
+                 <img src="imagens/logo-original.png" style="width: 180px; margin-bottom:15px;" alt="Aura Logo"><h3>Contato</h3>
+                 <p>Email: pulsecode.ti@gmail.com<br>Telefone: (11) 91325-5296</a></p>
                  <div>
-                    <button class="contato-footer" type="button"><a href="https://api.whatsapp.com/send?phone=5511913255296&text=Ol%C3%A1%20Thaissa!%20Estou%20interessado%20em%20criar%20um%20site%20para%20meu%20neg%C3%B3cio." target="_blank"> Me contate</a></button>
-                </div>
+                     <a href="#"><input type="button" style="background-color: #9906ee; color: white;" value="Nos contate" class="btn-contato"></a>
+                 </div>
                 </div>
              
          </div>
@@ -127,38 +240,21 @@
              <h3>Links Úteis</h3>
                  <ul class="links-uteis">
                      <li><a href="#inicio" target="_self">Página Inicial</a></li>
-                     <li><a href="/paginas/portfolio/portfolio.html" target="_self">Portfólio</a></li>
-                     <li><a href="paginas/sobremim/sobremim.html" target="_self">Sobre mim</a></li>
+                     <li><a href="#sessao-sobre" target="_self">Quem somos</a></li>
+                     <li><a href="#curriculo-sobre-mim" target="_self">Sobre mim</a></li>
+                     <li><a href="#investimento" target="_self">Investimento</a></li>
+                     <li><a href="#portfolio" target="_self">Portfólio</a></li>
                      <li> <a href="creditos.txt" download="creditos.txt">Baixar Arquivo com Créditos</a></li>
                  </ul>
-         </div>
- 
-         <div class="contato-form">
-             <h3>Entre em Contato</h3>
-             <form
-       action="https://formsubmit.co/thaissakailaine.ti@gmail.com"
-       method="POST"
-       class="form"
-     >
-       <label for="name">Nome</label>
-       <input type="text" name="name" id="name" required />
-       <label for="email">E-mail</label>
-       <input type="email" name="email" id="email" required />
-       <label for="message">Mensagem</label>
-       <textarea name="message" id="message" required></textarea>
-       <input type="hidden" name="_captcha" value="false" />
-       <input type="hidden" name="_next" value="http://127.0.0.1:5500/paginas/agradecimento.html">
-       
-       <button type="submit">Enviar</button>
-     </form>
          </div>
         </div>
  
  
         <span class="divisoria"></span>
          <div style="text-align: center;">
-             &copy;Todos os direitos reservados. <br>Site feito por Thaissa.kailaine
+             &copy; Todos os direitos reservados. Desenvolvido por <a href="https://w.app/thaissakailaine" target="_blank" style="color: #b700ff;">PulseCode</a>.
          </div>
      </footer>
+    
 </body>
 </html>

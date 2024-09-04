@@ -1,97 +1,157 @@
 @charset "UTF-8";
-header{
-   background-image: url(../imagens/header-background.jpg);
-   
+
+body, html{
+  scroll-behavior: smooth;
 }
 
-.iredes  img{
-   width: 60px;
+.desktop{
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .imenu{
+    display: none;
+  }
+  .menu-lateral{
+    display:none;
+  }
+  
+  header > nav > .itens  a{
+    display: block;
+    font-size: 1.07em;
+  }
+  
+  header > nav > .itens a:hover{
+    background-color:var(--cor2); 
+    color: white;
+    transition-duration: 0.3s;
+    border-radius: 10px;
+    padding: 3px 5px;
+  }
+  
+  header > nav > .itens{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    gap: 20px;
+  
+  }
+
+.sessao1 h1{
+    width: 60vw;
+    font-size: 2.5em;
 }
-.iredes  img:hover{
-   width: 80px;
-}
-
-.titulo-capa{
-   font-size:5em;
-   
-}
-
-.btn{
-   font-size: 1.2em;
-   width: 120px;
-   height: 50px;
-   right: 20px;
-
-}
-main .apresentacao p{
-   font-family: var(--font-principal);
-   width: 40%;
-   text-align: justify;
-   margin-left: 100px;
-
-
-}
-
-main .apresentacao h1{
-   margin-left: 100px;
-}
-
-main .habilidades{
-   position: absolute;
-   top: 0px;
-   right: 25%;
-   
-}
-
-main .habilidades h1, h2{
-   font-family: var(--font-destaque);
-   font-weight: 100;
-   font-size: 1.3em;
-   
-
+.flex-sessao{
+  text-align: left;
+  gap: 0px;
 }
 
-h2{
-   color: var(--cor1);
+.modelo{
+  width: 400px;
+  height:430px;
+  background-image: url(../imagens/modelo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sessao2{
+  flex-direction: row-reverse;
+  margin-top: 50px;
+  font-size: 1.3em;
+  align-items: center;
+}
+
+.sessao2-conteudo{
+  width: 40%;
+  text-align: justify;
+  margin: 50px auto 25px;
+}
+
+.sessao2-conteudo h1{
+  text-align: right;
+}
+
+.box-background{
+  width: 450px;
+  height: 300px;
+}
+
+.sessao3{
+  margin: 100px auto 25px;
+  font-size: 1.3em;
+  width: 85%;
+}
+
+.box-oferecimentos:hover{
+  transform: translateY(-10px);
+  transition-duration: 0.4s;
+}
+
+.port{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  width: 800px;
+  gap: 50px;
+
   
 }
 
-main .port{
-   display: flex;
-   justify-content: space-around;
-   flex-direction: row;
-   gap: 80px;
-   
+.sessao6{
+  width: 800px;
+  margin: auto;
 }
 
-.footer{
-   height: 300px;
- }
- .sessao-footer{
- 
-   justify-content: start;
-   flex-direction: row;
-   
- }
- 
- .form {
-   
-   width: 300px;
-   font-size: 1.125rem;
- }
- 
- .links-uteis > li{
-   font-size: 1.3em;
-   margin: 20px 0px;
- }
- 
- .sessao-footer > div{
- margin-top: 25px;
- margin-right: 60px;
- }
+footer{
+  height: 420px;
+}
+.sessao-footer{
+  justify-content: start;
+  flex-direction: row;
+  gap: 50px;
+  
+}
 
-@media screen and (max-width:1160px) {
-   main .port{
-       flex-direction: column;
-   }
+.links-uteis > li{
+  font-size: 1.3em;
+  margin: 20px 0px;
+}
+
+.sessao-footer > div{
+margin-top: 25px;
+margin-right: 60px;
+}
+
+
+
+
+@media(min-width:992px) and (max-width:1005px){
+  .sessao1 h1{
+    width: 60vw;
+    font-size: 1.5em;
+}
+  .flex-sessao{
+    text-align: left;
+  }
+
+  .modelo{
+    margin-top: 25px;
+  }
+  .sessao2{
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    font-size: 1em;
+  }
+
+.sessao2-conteudo{
+    width: 40%;
+    text-align: justify;
+    margin: 50px auto 25px;
+}
+
+.sessao2-conteudo h1{
+    text-align: right;
+}
 }

@@ -1,35 +1,35 @@
 Gostaríamos de expressar nossos agradecimentos sinceros às plataformas Freepik e flaticon pela disponibilidade das imagens utilizadas em nosso site. 
 Agradecemos também a todos os criadores cujas obras enriqueceram nosso conteúdo visual. Confira os links dos recursos:
 
-<a href="https://www.freepik.com/free-vector/set-torn-ripped-paper-sheets-texture_8563083.htm#fromView=search&page=1&position=2&uuid=c4b52726-6970-458b-a0e6-87e194481812">Image by starline on Freepik</a>
-rasgo
+<a href="https://www.freepik.com/free-vector/hand-drawn-retro-geometric-shape-illustration_138712431.htm#fromView=search&page=1&position=19&uuid=06fa8869-bf40-45b0-a526-0353b2b0fcc2">Image by freepik</a>
 
-<a href="https://www.freepik.com/free-vector/vintage-monochrome-astronaut-concept_8084185.htm#fromView=search&page=1&position=25&uuid=1379f2b6-65f7-46f5-be19-0da172c1ac16">Image by dgim-studio on Freepik</a>
-astronauta
+<a href="https://www.freepik.com/free-vector/hand-drawn-brutalism-shapes-silhouette_138715488.htm#fromView=search&page=1&position=20&uuid=06fa8869-bf40-45b0-a526-0353b2b0fcc2">Image by freepik</a>
 
-<a href="https://www.freepik.com/free-vector/grunge-dusty-texture-background_3857029.htm#fromView=search&page=1&position=1&uuid=105598cf-8a0f-431f-9080-456f9b7a3c17">Image by kjpargeter on Freepik</a>
-textura2
+<a href="https://www.freepik.com/free-vector/hand-drawn-abstract-shape-collection_17896482.htm#fromView=search&page=1&position=35&uuid=06fa8869-bf40-45b0-a526-0353b2b0fcc2">Image by freepik</a>
 
-<a href="https://www.flaticon.com/br/icones-gratis/github" title="github ícones">Github ícones criados por riajulislam - Flaticon</a>
-icone github
+<a href="https://www.freepik.com/free-photo/handsome-adult-man-working-digital-tablet-smiling-shopping-online-standing-light-blue-ba_45271369.htm#fromView=search&page=3&position=34&uuid=25648d91-fb62-487d-8425-644ebece3697">Image by benzoix on Freepik</a>
 
-<a href="https://br.freepik.com/vetores-gratis/elementos-monocromaticos-de-espaco-definido-com-onibus-espacial-astronauta-e-foguetes-observatorio-de-objetos-cosmicos-e-radar-isolado_9377764.htm#fromView=search&page=3&position=33&uuid=99c0aaca-3dd3-42f1-84c6-916c281930c3">Imagem de macrovector no Freepik</a>
-elementos galaxia
+<a href="https://www.flaticon.com/free-icons/invest" title="invest icons">Invest icons created by ariyantodeni - Flaticon</a>
 
-<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
-icone-photoshop
+<a href="https://www.flaticon.com/free-icons/megaphone" title="megaphone icons">Megaphone icons created by BomSymbols - Flaticon</a>
 
-<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
-ícone adobe illustrator
+<a href="https://www.flaticon.com/free-icons/graphic-designer" title="graphic designer icons">Graphic designer icons created by monkik - Flaticon</a>
 
-<a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons">Html 5 icons created by Freepik - Flaticon</a>
-icone html
+<a href="https://www.flaticon.com/free-icons/responsive-design" title="responsive design icons">Responsive design icons created by nawicon - Flaticon</a>
 
-<a href="https://www.flaticon.com/free-icons/css-3" title="css 3 icons">Css 3 icons created by Freepik - Flaticon</a>
-ícone css
+<a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Freepik - Flaticon</a>
 
-<a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Freepik - Flaticon</a>
-ícone js
+<a href="https://www.flaticon.com/free-icons/form" title="form icons">Form icons created by Freepik - Flaticon</a>
 
+<a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Freepik - Flaticon</a>
 
+<a href="https://www.flaticon.com/free-icons/stars" title="stars icons">Stars icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/survey" title="survey icons">Survey icons created by andinur - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/workflow" title="workflow icons">Workflow icons created by kerismaker - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/create-content" title="create content icons">Create content icons created by Vectors Tank - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Freepik - Flaticon</a>
 
